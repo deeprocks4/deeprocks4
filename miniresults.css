@@ -1,0 +1,44 @@
+.results_display_section{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 4px;
+    right: 4px;
+    overflow: auto;    
+}
+
+
+#mdr_minresults_dlg th{
+    color: #E7E247;
+}
+
+#mdr_minresults_dlg td{
+    color: #EEE;
+}
+
+
+#mdr_minresults_dlg td:nth-child(1){
+    text-align: left;
+    width: 60px;
+}
+
+#mdr_minresults_dlg td:nth-child(2){
+    text-align: center;
+    width: 55px;
+}
+#mdr_minresults_dlg td:nth-child(3){
+    text-align: right;
+    padding-right: 5px;
+}
+#mdr_minresults_dlg td:nth-child(4){
+    text-align: center;
+    width: 65px;
+}
+#mdr_minresults_dlg td:nth-child(5){
+    text-align: center;
+    width: 65px;
+}
+
+#mdr_minresults_dlg td:nth-child(6){
+    text-align: right;
+}

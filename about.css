@@ -1,0 +1,52 @@
+#mdr_about_wrapper{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#mdr_about_logo{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    width: 136px;
+    height: 132px;
+    background-image: url('images/about.png');
+}
+#mdr_about_title{
+    position: absolute;
+    top: 0px;
+    left: 165px;    
+    font-size: 18px;
+    color: #f00;
+}
+#mdr_about_version{
+    position: absolute;
+    top: 20px;
+    left: 225px;
+    font-size: 14px;    
+}
+#mdr_about_donation_title{
+    position: absolute;
+    top: 40px;
+    left: 165px;    
+    font-size: 13px;
+    color: #f0f;    
+}
+
+#mdr_about_donation_addresses{
+    position: absolute;
+    top: 65px;
+    left: 155px;    
+    font-size: 11px;    
+}
+#mdr_about_donation_addresses span{
+    color: #0f0;
+}
+
+#mdr_about_website{
+    position: absolute;
+    bottom: 0px;
+    left: 110px;    
+    font-size: 12px;
+    color: #FFFF00;     
+}

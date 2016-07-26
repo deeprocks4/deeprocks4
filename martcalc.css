@@ -1,0 +1,114 @@
+.no-close .ui-dialog-titlebar-close {
+  display: none;
+}
+
+
+.ui-dialog{
+    font-size: 11px;
+    background-color: #484B4E;
+    background-image: none!important;
+    -webkit-box-shadow: 3px 3px 5px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 5px 2px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 5px 2px rgba(0,0,0,0.75);        
+}
+
+.ui-dialog-titlebar{
+    position: relative;
+    margin-left: 20px!important;
+    margin-right: 20px!important;
+    padding: 0px 0px 0px 5px!important;
+    -webkit-border-radius: 4px!important;
+    -moz-border-radius: 4px!important;
+    border-radius: 4px!important;
+    background-color: #181B1E!important;
+    background-image: none!important;
+    border-top: 0px none #111111!important;
+    border-left: 0px none #EEEEEE!important;
+    border-right: 1px solid #333333!important;
+    border-bottom: 1px solid #333333!important;
+    border-radius: 5px!important;
+    box-shadow: #000000 1px 1px 1px 0px inset!important;
+    -webkit-box-shadow: #000000 1px 1px 1px 0px inset!important;
+
+}
+
+.ui-dialog-title{
+    font-size: 13px;
+    color: #AE81FF;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+    
+}
+.ui-dialog-content{
+    margin-top: 2px;
+    margin-bottom: 1px;
+    font-size: 11px;
+    background-color: #181B1E!important;
+    border-top: 0px none #111111;
+    border-left: 0px none #EEEEEE;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-radius: 5px;
+    box-shadow: #000000 1px 1px 1px 0px inset;
+    -webkit-box-shadow: #000000 1px 1px 1px 0px inset;
+    padding: 3px!important;
+}
+
+.ui-dialog-titlebar i.dlg_icon{
+    position: absolute;
+    top: 1px;
+    left: -18px;
+    color: #000;
+    font-size: 16px;
+}
+
+.ui-dialog-titlebar .close_dlg_btn{
+    position: absolute;
+    top: -1px;
+    right: -18px!important;
+    color: #000;
+    font-size: 16px;
+    border: 0px solid #0f0;
+    cursor: pointer!important;
+}
+.ui-dialog-titlebar .close_dlg_btn:hover{
+    color: #AE81FF;
+}
+
+.dialog_light_section{
+    background-color: #383B3E;
+    border-radius: 3px;
+}
+
+#mdr_martcalc_dlg th:nth-child(1){
+    text-align: left;
+}
+#mdr_martcalc_dlg th:nth-child(3){
+    text-align: right;
+}
+#mdr_martcalc_dlg td:nth-child(2){
+    text-align: right;
+    padding-right: 3px;
+}
+#mdr_martcalc_dlg td:nth-child(3){
+    text-align: right;
+    padding-right: 3px;
+}
+#mdr_martcalc_dlg .display_scroller_wrapper{
+    position: absolute;
+    top: 129px;    
+    left: 3px;
+    right: 3px;
+    bottom: 3px;
+    border: 0px solid #f00;
+    overflow: auto;
+    
+}
+
+.trActive{
+    color: #FC6F09!important;
+}
+
+.display_scroller{
+    width: 100%;
+    height: 100%;
+}

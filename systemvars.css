@@ -1,0 +1,34 @@
+.editor_link{
+    color: #E7E247!important;
+    cursor: pointer;
+}
+
+#mdr_systemvars_dlg table{
+    width: 100%;
+}
+
+#mdr_systemvars_dlg td span{
+    color: #8DFF0A;
+}
+
+#mdr_systemvars_dlg td:nth-child(odd){
+    width: 100px!important;
+}
+
+#mdr_systemvars_dlg td:nth-child(even){
+    width: 125px!important;
+    padding-right: 15px;
+    text-align: right;
+}
+
+#sysresetbtn{
+    position: absolute;
+    top: 4px;
+    right: 10px;
+    color: #AE81FF;
+    cursor: pointer;
+}
+
+#sysresetbtn:hover{
+    color: #8DFF0A;
+}

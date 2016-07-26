@@ -1,0 +1,64 @@
+#mdr_heights_dlg{
+    overflow: hidden;   
+}
+
+#heights_display_wrapper{
+    width: 200px;
+    height: 300px;
+}
+
+#heights_display_section_win{
+    position: absolute;
+    top: 20;
+    left: 0px;
+    width: 80px;
+    height: 100%;
+}
+
+#heights_display_section_loss{
+    position: absolute;
+    top: 20;
+    left: 80px;
+    width: 80px;
+    height: 100%;
+}
+
+.heights_display_section{
+    width: 100%;
+    height: 100%;
+    overflow: auto;    
+}
+
+#win_heights_table td:nth-child(1){
+    color: #E7E247;
+    padding-left: 4px;
+}
+
+#win_heights_table td:nth-child(2){
+    color: #8DFF0A;
+}
+
+#loss_heights_table td:nth-child(1){
+    color: #E7E247;
+    padding-left: 4px;
+}
+
+#loss_heights_table th{
+    color: #E91717;
+    text-align: center;
+}
+
+#loss_heights_table td:nth-child(2){
+    color: #E91717;
+}
+
+#heights_reset_btn{
+    width: 154px;
+    height: 16px;
+    text-align: center;
+    color: #E6E1DC;
+    cursor: pointer;
+}
+#heights_reset_btn:hover{
+    color: #E7E247;
+}

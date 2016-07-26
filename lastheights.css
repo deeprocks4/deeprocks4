@@ -1,0 +1,21 @@
+#last_heights_table{
+    color: #E6E1DC;
+}
+#last_heights_table tr:nth-child(1) td:nth-child(1){
+    color: #8DFF0A!important;
+}
+#last_heights_table tr:nth-child(2) td:nth-child(1){
+    color: #E91717!important;
+}
+
+#lastresetbtn{
+    position: absolute;
+    top: 4px;
+    right: 10px;
+    color: #AE81FF;
+    cursor: pointer;    
+}
+
+#lastresetbtn:hover{
+    color: #8DFF0A;
+}

@@ -1,0 +1,90 @@
+#madr_toolbar_wrapper{
+    position: fixed;
+    top: 117px;
+    right: 3px;
+    z-index: 9999;
+    background-color: #383B23;
+    border-top: 0px none #111111;
+    border-left: 0px none #EEEEEE;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-radius: 5px;
+    box-shadow: #000000 1px 1px 1px 0px inset;
+    -webkit-box-shadow: #000000 1px 1px 1px 0px inset;
+    padding: 5px 2px 3px 4px;    
+    -webkit-box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.5);
+    -moz-box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.5); 
+}
+
+#madr_toolbar_toolbar{
+    position: relative;
+    width: 25px;
+    height: 100%;
+    background-color: #181B1E;
+    border-top: 1px none #111111;
+    border-left: 1px none #EEEEEE;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-radius: 5px;
+    box-shadow: #000000 1px 1px 1px 0px inset;
+    -webkit-box-shadow: #000000 1px 1px 1px 0px inset;
+    padding: 20px 1px 1px 1px;
+}    
+
+#madr_toolbar_open_button_wrapper{
+    position: fixed;
+    top: 100px;
+    right: 0px;
+    width: 36px;
+    height: 125px;
+    z-index: 9998;    
+}
+
+#madr_toolbar_open_button{
+    position: relative;
+    background-image: url('images/toolbar_open_right.png');
+    width: 100%;   
+    height: 100%;
+    cursor: pointer;
+}
+
+#madr_toolbar_close_button{
+    position: absolute;
+    background-image: url('images/toolbar_close_right.png');
+    top: -20px;
+    right: -2px;
+    width: 48px;   
+    height: 43px;
+    cursor: pointer;
+}
+
+.madr_toolbar_button{
+    position: relative;
+    text-align: center;
+    margin: 2px;
+    float: left;
+    display: inline-block;
+    width: 20px;   
+    height: 20px;
+    cursor: pointer;
+    border: 1px solid #666;
+    border-radius: 4px;
+    opacity: 0.5;
+}
+
+.madr_toolbar_button i{
+    position: absolute;
+    color: #AE81FF;
+    top: 2px;
+    left: 2px;
+    display: inline-block;
+    width: 16px;   
+    height: 16px;
+    cursor: pointer;
+}
+
+.madr_toolbar_button:hover{
+    opacity: 1;
+    color: #CDB1FF;
+}
